@@ -8,25 +8,25 @@ namespace ApredizadoApp.Models
 {
     public class Edital
     {
-        public int Id { get; set; }
-        public int numero { get; set; }
-        public int ano { get; set; }
-        public int vigencia { get; set; }
+        public int ID { get; set; }
+        public int Numero { get; set; }
+        public int Ano { get; set; }
+        public int Vigencia { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime dataPublicacao { get; set; }
+        public DateTime DataPublicacao { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime dataValidade { get; set; }
+        public DateTime DataValidade { get; set; }
         
         [DataType(DataType.MultilineText)]
-        public object objeto { get; set; }
+        public object Objeto { get; set; }
 
-        public string status { get; set; }
+        public string Status { get; set; }
 
-        public string numeroEdital { get; set; }
+        public string NumeroEdital { get; set; }
 
-        public int entidadeId { get; set; }
+        public int EntidadeId { get; set; }
     }
 }
 

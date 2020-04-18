@@ -27,7 +27,7 @@ namespace ApredizadoApp
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<EditalContext>(options => options.UseSqlServer(Configuration.GetConnectionString("EditalContext")));
+            services.AddDbContext<AppAprdContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AppAprdContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

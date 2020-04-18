@@ -3,9 +3,9 @@ using ApredizadoApp.Models;
 
 namespace ApredizadoApp.Data
 {
-    public class EditalContext: DbContext
+    public class AppAprdContext: DbContext
     {
-        public EditalContext(DbContextOptions<EditalContext> options)
+        public AppAprdContext(DbContextOptions<AppAprdContext> options)
             : base(options)
         {
         }

@@ -20,7 +20,7 @@ namespace ApredizadoApp.Models
         public DateTime DataValidade { get; set; }
         
         [DataType(DataType.MultilineText)]
-        public object Objeto { get; set; }
+        public string Objeto { get; set; }
 
         public string Status { get; set; }
 
